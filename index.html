@@ -7,29 +7,49 @@
     <title>Jose Sandoval</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-   <div class="container">
-       <div class="navbar">
-           <div class="navbar__logo"><p class="navbar__logo--text"><span class="navbar__logo--text key">{ </span><span class="navbar__logo--text initial">H</span>iken<span class="navbar__logo--text initial">J</span>os<span class="navbar__logo--text key"> }</span></p></div>
-           <div class="navbar__menu">
-               <ul class="navbar__menu--list">
-                   <li><a href="#" class="navbar__menu--a">Home</a></li>
-                   <li><a href="#" class="navbar__menu--a">About me</a></li>
-                   <li><a href="#" class="navbar__menu--a">Service</a></li>
-                   <li><a href="#" class="navbar__menu--a">Portfolio</a></li>
-                   <li><a href="#" class="navbar__menu--a">Contact</a></li>
-               </ul>
-           </div>
-       </div>
+<body onload="freeze_gif('rotator')">
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar__logo"><p class="navbar__logo--text"><span class="navbar__logo--text key">{ </span><span class="navbar__logo--text initial">H</span>iken<span class="navbar__logo--text initial">J</span>os<span class="navbar__logo--text key"> }</span></p></div>
+            <div class="navbar__menu">
+                <ul class="navbar__menu--list">
+                    <li><a href="#" class="navbar__menu--a">Home</a></li>
+                    <li><a href="#" class="navbar__menu--a">About me</a></li>
+                    <li><a href="#" class="navbar__menu--a">Service</a></li>
+                    <li><a href="#" class="navbar__menu--a">Portfolio</a></li>
+                    <li><a href="#" class="navbar__menu--a">Contact</a></li>
+                </ul>
+            </div>
+        </div>
 
-       <div class="cover">
-           <div class="cover__img"><img src="img/profile.jpg" alt=""></div>
-           <div class="cover__alltext">
-            <div class="cover__name"><h1 class="cover__name--text"><span class="cover__name--j initial">J</span>osé <span class="initial">S</span>andoval</h1></div>
-            <div class="cover__iam"><p class="cover__iam--text">I'm Front-end Developer</p></div>
-           </div>
+        <div class="cover">
+            <div class="cover__img"><img src="img/profile.jpg" alt=""></div>
+            <div class="cover__alltext">
+                <div class="cover__name">
+                    <h1 class="cover__name--text"><span class="cover__name--j initial">J</span>osé <span class="initial">S</span>andoval
+                    </h1>
+                </div>
+                <div class="cover__iam"><p class="cover__iam--text">I'm Front-end Developer</p></div>
+            </div>
+        </div>
+        <div class="aboutme">
+            <div class="divider"></div>
+            <div class="tittle">
+                <div class="lineL"></div><h1 class="tittle__tittle">About Me</h1><div class="lineR"></div>
+            </div>
+            <div class="divider"></div>
+            <div class="description">
+                <div class="description__all">
+                    <div class="description__tittle"><h2><span class="initial">W</span>ho am i?</h2></div>
+                    <div class="description__text">
+                        <p class="desctiption__text--descp">Professional in the field of web development with solid knowledge in front-end development languages</p>
+                    </div>
+                </div>
+            <div class="download"><a class="download__cv" href="#"><button class="btn--decoration">Download CV</button></a></div>
+            </div>
+        </div>
+    </div> 
 
-       </div>
-   </div> 
+<script src="main.js"></script>
 </body>
 </html>
