@@ -8,22 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body onload="freeze_gif('rotator')">
+<body>
     <div class="container">
         <div class="navbar">
             <div class="navbar__logo"><p class="navbar__logo--text"><span class="navbar__logo--text key">{ </span><span class="navbar__logo--text initial">H</span>iken<span class="navbar__logo--text initial">J</span>os<span class="navbar__logo--text key"> }</span></p></div>
             <div class="navbar__menu">
                 <ul class="navbar__menu--list">
-                    <li><a href="#" class="navbar__menu--a">Home</a></li>
-                    <li><a href="#" class="navbar__menu--a">About me</a></li>
-                    <li><a href="#" class="navbar__menu--a">Service</a></li>
-                    <li><a href="#" class="navbar__menu--a">Portfolio</a></li>
-                    <li><a href="#" class="navbar__menu--a">Contact</a></li>
+                    <li><a href="#cover" class="navbar__menu--a">Home</a></li>
+                    <li><a href="#aboutme" class="navbar__menu--a">About me</a></li>
+                    <li><a href="#skills" class="navbar__menu--a">Skills</a></li>
+                    <li><a href="#portfolio" class="navbar__menu--a">Portfolio</a></li>
+                    <li><a href="#contact" class="navbar__menu--a">Contact</a></li>
                 </ul>
             </div>
         </div>
-
-        <div class="cover">
+        <div class="cover" id="cover">
             <div class="cover__img"><img src="img/profile.jpg" alt=""></div>
             <div class="cover__alltext">
                 <div class="cover__name">
@@ -34,7 +33,8 @@
             </div>
         </div>
         <div class="divider"></div>
-        <div class="aboutme">
+
+        <div class="aboutme"id="aboutme">
             <div class="tittle">
                 <div class="lineL"></div><h1 class="tittle__tittle">About Me</h1><div class="lineR"></div>
             </div>
@@ -50,10 +50,11 @@
             
             </div>
         </div>
-        <div class="divider"></div>
+        <div class="divider" id="skills"></div>
         <div class="tittle skill">
             <div class="lineL"></div><h1 class="tittle__tittle">Skills</h1><div class="lineR"></div>
         </div>
+
         <div class="skills">
             <div class="skill__center">
                 <div class="card">
@@ -185,10 +186,12 @@
             </div>
         </div>
 
-        <div class="divider"></div>
+        <div class="divider" id="portfolio"></div>
+
         <div class="tittle skill">
             <div class="lineL"></div><h1 class="tittle__tittle">Portfolio</h1><div class="lineR"></div>
         </div>
+        
         <div class="portfolio">
             <div class="content__portfolio">
                 <div class="project">
@@ -241,6 +244,29 @@
                 </div>
             </div>
         </div>
+
+        <div class="divider"></div>
+        <div class="tittle skill">
+            <div class="lineL"></div><h1 id="contact" class="tittle__tittle">Contact</h1><div class="lineR"></div>
+        </div>
+
+        <section>
+            <div class="contact">
+                <div class="content__contact">
+                    <div class="contact--workwme"><p class="grafcenter">If you have a job offer, a project proposal, are interested in us working together or just want to say hello, contact me here!</p></div>
+                    <div class="mailme"><button class="sendme"><a href="mailto:j-os-pablo@hotmail.com">Contact Me</button></a></div>
+                    <div class="contact__list">
+                        <ul>
+                            <li><a target="_blank" href="https://www.instagram.com/hikenjos/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/HikenJos"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a target="_blank" download="Jose-Sandoval-CV" href="download/Jose-Sandoval.pdf"><i class="fa-solid fa-file-arrow-down"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="logotype"><p class="navbar__logo--text"><span class="navbar__logo--text key">{ </span><span class="navbar__logo--text initial">H</span>iken<span class="navbar__logo--text initial">J</span>os<span class="navbar__logo--text key"> }</span></p></div>
+                    <div class="rights"><p>All right reserved ©</p></div>
+                </div>
+            </div>
+        </section>
 
     </div> 
 
